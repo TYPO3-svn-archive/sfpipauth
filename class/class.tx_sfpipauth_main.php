@@ -27,7 +27,7 @@ require_once(PATH_t3lib.'class.t3lib_svbase.php');
 /**
  * Service "IP-Auth FE-User" for the "sfpipauth" extension.
  *
- * @author	Christoph Buchli | snowflake <cbuchli@snowflake.ch>
+ * @author	Christoph Buchli | snowflake productions gmbh <support@snowflake.ch>
  * @package	TYPO3
  * @subpackage	tx_sfpipauth
  */

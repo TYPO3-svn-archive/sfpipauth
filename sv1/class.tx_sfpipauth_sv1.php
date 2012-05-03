@@ -28,7 +28,7 @@ require_once(t3lib_extMgm::extPath('sfpipauth').'class/class.tx_sfpipauth_main.p
 /**
  * Service "IP-Auth FE-User" for the "sfpipauth" extension.
  *
- * @author	Christoph Buchli | snowflake <cbuchli@snowflake.ch>
+ * @author	Christoph Buchli | snowflake productions gmbh <support@snowflake.ch>
  * @package	TYPO3
  * @subpackage	tx_sfpipauth
  */
@@ -127,9 +127,9 @@ class tx_sfpipauth_sv1 extends tx_sfpipauth_main {
 				if(t3lib_div::cmpIP($UserIp, $IP['ip'])) {
 
 				$GroupIds = $this->checkGroupIds($IP['fegroups']);
-					// More Then One Id
+					// More Than One Id
 				if($GroupIds) {
-					// Get Back Formated Ids
+					// Get Back Formated Ids. Note: GroupIds always is an array or false (see checkGroupIds).
 					foreach($GroupIds as $GroupId) {
 							// Only Add Existing Groupdata
 						$GroupData = $this->getAuthorizedGroup($GroupId);

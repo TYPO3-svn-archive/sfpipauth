@@ -32,7 +32,7 @@ require_once(t3lib_extMgm::extPath('sfpipauth').'class/class.tx_sfpipauth_main.p
 /**
  * Service "IP-Auth FE-User" for the "sfpipauth" extension.
  *
- * @author	Christoph Buchli | snowflake <cbuchli@snowflake.ch>
+ * @author	Christoph Buchli | snowflake productions gmbh <support@snowflake.ch>
  * @package	TYPO3
  * @subpackage	tx_sfpipauth
  */
